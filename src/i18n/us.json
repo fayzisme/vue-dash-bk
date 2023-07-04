@@ -1,0 +1,406 @@
+{
+	"menu" : {
+		"menu" : "Menu",
+		"dashboard" : "Dashboard",
+		"whatsapp" : "Whatsapp",
+		"telegram": "Telegram"
+,		"link": "Link",
+		"email": "Email Integration",
+		"helpdesk" : "Helpdesk",
+		"helpdesk_wa" : "WhatsApp Helpdesk",
+		"helpdesk_tele" : "Telegram Helpdesk",
+		"sms" : "SMS",
+		"h2h" : {
+			"h2h" : "H2H Services",
+			"papaya" : "Papaya",
+			"biller" : "Biller",
+			"ecash" : "Ecash"
+		},
+		"divabot": "Diva Bot",
+		"billing" : "Billing",
+		"contacts" : "Contact",
+		"integration" : "Integration",
+		"usermanagement" : "User Management",
+		"options":" Settings",
+		"activity":" History Activity",
+		"logout" : "Logout",
+		"profile": "Profile",
+		"change_password": "Change password",
+		"invite": "Invite user"
+	},
+	"wabalink": {
+		"wabalink": "Wabalinks",
+		"add": "Create"
+	},
+	"promote": {
+		"desc": {
+			"whatsapp": "Starts reaching your customers today via Whatsapp with our Whatsapp Business platform.<br>You can immediately send notification/alerts to your customer. Not only, blasting messages, customer can also reach you at Whatsapp for customer support. Or maybe you need a ChatBot service for pre-defined information about your company or your product?<br><br>For further information, please reach us at <a href='mailto:business.solution@damcorp.id'>business.solution@damcorp.id</a><br>Can't wait to hear your feedback!",
+			"telegram": "Starts reaching your customers today via Telegram with our Telegram platform.<br>You can immediately send notification/alerts to your customer. Not only, blasting messages, customer can also reach you at Telegram for customer support. Or maybe you need a ChatBot service for pre-defined information about your company or your product?<br><br>For further information, please reach us at <a href='mailto:business.solution@damcorp.id'>business.solution@damcorp.id</a><br>Can't wait to hear your feedback!",
+			"email": "Starts reaching your customers today via Email that integrate with our Whatsapp Business platform.<br>You can immediately send notification/alerts to your customer from email or Whatsapp. <br><br>For further information, please reach us at <a href='mailto:business.solution@damcorp.id'>business.solution@damcorp.id</a><br>Can't wait to hear your feedback!",
+			"wabalink": "Start shorten yout link with our short url WABALink. Build and protect your brand using powerful, recognizable short links.<br>For further information, please reach us at <a href='mailto:business.solution@damcorp.id'>business.solution@damcorp.id</a><br>Can't wait to hear your feedback!"
+		}
+	},
+	"dashboard" : {
+		"welcome" : "Welcome!",
+		"welcome_description" : "This is your dashboard panel",
+		"documentation" : "Documentation",
+		"documentation_description" : "API documentation from DAMCorp Products is available!",
+		"documentation_button" : "See the documentation",
+		"setup" : "SET UP YOUR WORKSPACE"
+	},
+	"whatsapp" : {
+		"whatsapp" : "Whatsapp",
+		"message" : "Message",
+		"personalize" : "Personalize",
+		"step_1" : "Step 1",
+		"step_1_description" : "Message",
+		"step_2" : "Step 2",
+		"step_2_description" : "Sender & Recipients",
+		"step_3" : "Step 3",
+		"step_3_description" : "Verify Message",
+		"characters" : "Characters",
+		"use" : "Use",
+		"to_get" : "to get",
+		"empty_all_message": "You can not send empty message.",
+		"empty_to": "You must select at least 1 (one) recipients.",
+		"empty_sender": "Please select your message sender.",
+		"empty_sendTime": "Something wrong with your sending time.",
+		"sendTime_before_now": "Your sending time can't before now.",
+		"hsm_not_choose": "Please choose one template",
+		"hsm_param_empty": "Please fill the param field.",
+		"credit_limit": "You have reach your credit limit. Please contact your administrator.",
+		"csv_upload_info": "Make sure your CSV has following header",
+		"missing_parameter": "You must have following header. Please check your file.",
+		"inquiry": "Whatsapp Inquiry Contact",
+		"createTemplate": {
+			"success": "Create template has been success and please wait to be approved",
+			"failed": "Oops! We can not submit your request. Please try again later."
+		},
+		"requestTemplate": {
+			"success": "Request has been success and please wait to be approved",
+			"failed": "Oops! We can not submit your request. Please try again later."
+		},
+		"hsm_failed": "Oops! Send notification failed.",
+		"not_allowed": "You are not allow to do this action.",
+		"generate_qr": {
+			"generate_qr":"Generate QR Code"
+		}
+	},
+	"email": {
+		"title": "Email Integration",
+		"not_subscribe": "You do not have email integration configuration. Please set it first!",
+		"confirm_redirect": "Please make sure your CSV file has column email"
+	},
+	"sms": {
+		"title": "Sms Integration",
+		"not_subscribe": "You do not have SMS integration configuration. Please set it first!"
+	},
+	"helpdesk" : {
+		"helpdesk" : "Helpdesk",
+		"preferences": "Helpdesk Configuration",
+		"start_date_greater": "Start date must be lower than end date",
+		"invalid_param": "You must fill all field",
+		"fatal_error" : "Something went wrong",
+		"confirm_close": {
+			"title": "Confirm Close Ticket",
+			"text": "Are you sure want to close this ticket?\nNote: User will not receive any message due to expired date of this chat"
+		},
+		"confirm_kick": {
+			"title": "Confirm Kick Participants",
+			"text": "Are you sure want to kick this user from group? You can not undo this action."
+		},
+		"searchTicket": "Search ticket",
+		"quickReply":{
+			"exist": "Quick Reply with this title already exist. Please try with another title."
+		}
+	},
+	"ticket" : {
+		"ticket" : "Ticket",
+		"allticket" : "All Ticket",
+		"yourticket" : "Your Ticket",
+		"all" : "All",
+		"your" : "Your"
+	},
+	"conversation": {
+		"closed": "Conversation has ended. You can not send message through this conversation.",
+		"fatal_error": "Sorry, there is problem when send your message. Please try again.",
+		"no_conversation": "Sorry, something went wrong. Please choose conversation from list and try send message again.",
+		"invalid_param": "Sorry, something went wrong. Please choose conversation from list and try send message again."
+	},
+	"usermanagement" : {
+		"usermanagement" : "User Management",
+		"success": "Success",
+		"invalid_password": "You input wrong password.",
+		"not_allowed": "You are not allow to do this action.",
+		"no_company": "No company was found.",
+		"no_user": "There is no user.",
+		"invalid_param": "You must fill all field.",
+		"not_allowed_invite": "You are not allowed to invite user.",
+		"not_found": "Not found.",
+		"failed": "Failed.",
+		"user_not_register": "User not registered to system.",
+		"can_not_invite": "Can not invite this user.",
+		"invite_success": "Invite success. Remind them to register/re-login to our dashboard."
+	},
+	"settings": {
+		"title": "Settings",
+		"profile": {
+			"quota": "Quota Notification",
+			"number": "Phone Number",
+			"notification": "Notification Type"
+		}
+	},
+	"contact" : {
+		"contact" : "Contact",
+		"detail" : "Detail Contact",
+		"add" : "Add New Contact",
+		"edit" : "Edit Contact",
+		"delete" : "Delete Contact",
+		"search" : "Search a contact",
+		"all" : "All Contact",
+		"add_to_group" : "Add to Group",
+		"remove_from_group" : "Remove from Group",
+		"field" : {
+			"title" : "Title",
+			"fullname" : "Fullname",
+			"phone" : "Phone",
+			"param_1" : "Param 1",
+			"param_2" : "Param 2"
+		},
+		"warning": {
+			"name": "Please input contact's name",
+			"phone_number": "Please input contact's phone number"
+		},
+		"choose" : "Choose Contact",
+		"number_contact_exist": "Another contact has use this phone number.",
+		"sample_data" : "Sample Data",
+		"csv_template_description" : "CSV column order must follow this rule",
+		"csv_has_header" : "We asume first row is header so we discard it",
+		"from_csv" : "From CSV",
+		"single" : "Single",
+		"file" : "File",
+		"contact_exist_group": "This contact is already in the group",
+		"duplicate_number": "Contact with this number already exist.",
+		"fatal_error": "Something went wrong"
+	},
+	"group" : {
+		"group" : "Group",
+		"detail" : "Detail Group",
+		"add" : "Add Group",
+		"edit" : "Edit Group",
+		"delete" : "Delete Group",
+		"search" : "Search a Group",
+		"field" : {
+			"name" : "Group Name"
+		},
+		"choose" : "Choose Group"
+	},
+	"not_found" : {
+		"title" : "404 Not Found",
+		"description_1" : "Oops!",
+		"description_2" : "It seems that this page does not exist."
+	},
+	"assigncs" : {
+		"invalid_param": "Something was wrong. Please try again later.",
+		"user_not_exist": "User not exist",
+		"no_company": "User has no company",
+		"registered": "User already assign as Customer Service",
+		"success": "Success",
+		"not_allowed": "You are not allowed to do this action.",
+		"not_valid": "Sorry, please refresh and try again.",
+		"no_bot": "Sorry, you select number that is not connected to our Helpdesk service."
+	},
+	"register" : {
+		"register" : "Register",
+		"sucess": "Register success. Now, you can login to our dashboard. Enjoy!",
+		"success": "Register success. Now, you can login to our dashboard. Enjoy!",
+		"request_field" : "Please enter your data",
+		"have_account" : "Have an account?",
+		"invalid_parameter": "You must fill all field.",
+		"email_registered": "Email has been used.",
+		"email_registered_invite": "You already registered with this email.",
+		"email_not_valid": "Your email is not a valid email format",
+		"username_registered": "Username has been used.",
+		"register_success": "Register success. Please check your email for verify your account.",
+		"register_failed": "Failed to register your account.",
+		"invalid_length": "Minimum password length is 8 (eight) character.",
+		"password_not_match": "Password does not match the confirm password.",
+		"invite_success": "Invite success. Remind them to register/re-login to our dashboard.",
+		"not_strong": "Your password is not strong. Please use alphanumeric or use special character."
+	},
+	"verify": {
+		"h_verify_success": "Verify Success!",
+		"h_error": "Verify Failed!",
+		"verify_success": "Thank you! We have verify your account. Now, you can use our dashboard. Enjoy!",
+		"failed_verify": "Sorry, we can not verify your account. Please try again",
+		"failed_check_token": "Sorry, there was an error so we can not verify your account. Please try again later.",
+		"invalid_token": "Sorry, we can not verify your token. You have wrong token.",
+		"login_here": "Login here!"
+	},
+	"login" : {
+		"login" : "Login",
+		"request_field" : "Please enter your email and password",
+		"invalid_parameter": "You must fill all field.",
+		"not_have_account" : "Don't have an account?",
+		"login_failed_wrong_credential": "Email/username and password wrong!",
+		"null_parameter": "You must fill email/username and password!",
+		"need_verify": "You need to activate your account.",
+		"captcha_failed": "Oops! Captha failed."
+	},
+	"forgot_password" : {
+		"forgot_password" : "Forgot Password",
+		"request_email" : "Please enter your email",
+		"send_link" : "SEND RESET LINK",
+		"email_not_vaild": "Your email is not a valid email format",
+		"forgot_password_success": "We have sent email for you to change password. Please check your email. Thank you!",
+		"success": "We have sent email for you to change password. Please check your email. Thank you!",
+		"not_registered": "Sorry, you are not one of our registered user."
+	},
+	"reset_password": {
+		"success": "Success",
+		"reset_password": "Reset Password",
+		"desc": "Please enter your new password",
+		"update_password": "Update password",
+		"invalid_parameter": "You must fill all field",
+		"invalid_length": "Minimum password length is 8 (eight) character.",
+		"password_not_match": "Password and confirmation password does not match",
+		"password_changed_success": "Password update! Please log in with your new password",
+		"password_old_wrong": "Sorry, you have enter wrong old password"
+	},
+	"generic" : {
+		"next" : "Next",
+		"back" : "Back",
+		"failed_update": "Oops! Failed to update your data. Please try again.",
+		"update": "Update",
+		"add":"Add Website URL"
+	},
+	"overview": {
+		"whatsapp": "Whatsapp Overview"
+	},
+	"profileColumn":{
+		"name": "Name",
+		"username": "Username",
+		"email": "Email",
+		"register_at": "Register Date",
+		"active_at": "Activate Date",
+		"last_update": "Last update",
+		"type": "Account Type"
+	},
+	"companyColumn":{
+		"wabanumber": "WABA Number",
+		"name": "Company Name",
+		"brand": "Company Brand",
+		"phone": "Company Phone Number",
+		"address": "Company Address",
+		"pic_name": "PIC Business Name",
+		"pic_email": "PIC Business Email",
+		"pic_phone": "PIC Business Phone",
+		"tech_name": "PIC Tech Name",
+		"tech_email": "PIC Tech Email",
+		"tech_phone": "PIC Tech Phone",
+		"pks": "PKS Number",
+		"npwp": "NPWP",
+		"siup": "SIUP",
+		"skdp": "SKDP",
+		"tdp": "TDP"
+	},
+	"companyColumnWarning": {
+		"wabanumber": "Please input your company's Whatsapp Business account number",
+		"name": "Please input your company's name",
+		"brand": "Please input your company's brand",
+		"phone": "Please input your company's phone number",
+		"address": "Please input your company's address",
+		"pic_name": "Please input your PIC Business name",
+		"pic_email": "Please input your PIC Business email",
+		"pic_phone": "Please input your PIC Business phone",
+		"tech_name": "Please input your PIC Tech name",
+		"tech_email": "Please input your PIC Tech email",
+		"tech_phone": "Please input your PIC Tech phone",
+		"pks_number": "Please input your PKS number",
+		"npwp": "Please input your company's NPWP",
+		"siup": "Please input your company's SIUP",
+		"skdp": "Please input your company's SKDP",
+		"tdp": "Please input your company's TDP",
+		"invalid_email": "Please input correct email address"
+	},
+	"upgradeacc" : {
+		"title": "Upgrade Account",
+		"desc": "Please fill form below to upgrade your account to Business plan.",
+		"pending": "Thank you for your request to upgrade your account. We will check your request first. Please wait for 3x24 work hours.<br/><br/>Regards, DAM Corp.",
+		"reject": "Rejected"
+	},
+	"change_password":{
+		"label": {
+			"old_password": "Old password",
+			"new_password": "New password",
+			"re_password": "Re-type new password"
+		},
+		"placeholder":{
+			"old_password": "Your old password",
+			"new_password": "Your new password",
+			"re_password": "Re-type your new password"
+		},
+		"warning": {
+			"null_old_password": "Please input your old password",
+			"null_new_password": "Please input your new password",
+			"null_re_password": "Please retype your new password",
+			"min_old_password": "Please input your old password at least 8 (eight) characters long",
+			"min_new_password": "Please input your new password at least 8 (eight) characters long",
+			"min_re_password": "Please retype your new password at least 8 (eight) characters long",
+			"same_with_old": "Your new password can not be same with your old password",
+			"not_match": "Your retype password doesn't match with your new password",
+			"password_not_match": "Password and retype password does not match",
+			"password_changed_success": "Password update! You can log in with your new password",
+			"password_old_wrong": "Sorry, you have enter wrong old password",
+			"not_strong": "Your password is not strong. Please use alphanumeric or use special character."
+		}
+	},
+	"schedule": {
+		"approveConfirmTitle": "Approve Schedule",
+		"approveConfirmText": "Are you sure want to approve this schedule?",
+		"approveConfirmBtn": "Approve",
+		"rejectConfirmTitle": "Reject Schedule",
+		"rejectConfirmText": "Are you sure want to reject this schedule?",
+		"rejectConfirmBtn": "Reject",
+		"status": {
+			"waiting": "Waiting approval",
+			"approved": "Approved",
+			"rejected": "Rejected",
+			"expired": "Expired"
+		}
+	},
+	"day": {
+		"1": "Monday",
+		"2": "Tuesday",
+		"3": "Wednesday",
+		"4": "Thursday",
+		"5": "Friday",
+		"6": "Saturday",
+		"7": "Sunday"
+	},
+	"submit" : "Submit",
+	"cancel" : "Cancel",
+	"success" : "Success",
+	"success_text" : "Success",
+	"error" : "Oops...",
+	"error_text" : "Something went wrong",
+	"alert_error_text": "Something wrong was happened. Please try again later.",
+	"delete_confirmation" : "Are you sure?",
+	"delete_confirmation_text" : "You won't be able to revert this!",
+	"delete_confirmation_button" : "Yes, delete it!",
+	"profile": "My Profile",
+	"invalid_password": "Your password is wrong",
+	"BUSINESS": "Business",
+	"PERSONAL": "Personal",	
+	"fieldNumberOnly": "Please input number only",
+	"company": "My Company Profile",
+	"upgradeaccount": "Upgrade to Business Plan",
+	"lipsum" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+	"timeout": "We can not proccess your request. Please check your connection.",
+	"error_500": "Sorry, we can not proccess your request. Something wrong happened. Please try again later",
+	"info": "Info",
+	"warning": "Warning",
+	"download_failed_text": "Failed to download data. Please try again later.",
+	"upload_max_size": "Your file exceed maximum size limit!",
+	"file_not_allowed": "Your file format is wrong. Please upload file type"
+}

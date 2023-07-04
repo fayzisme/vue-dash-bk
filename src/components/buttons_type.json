@@ -1,0 +1,14 @@
+[
+  {
+    "value": "none",
+    "label": "None"
+  },
+  {
+    "value": "call",
+    "label": "Call To Action"
+  },
+  {
+    "value": "quick",
+    "label": "Quick Reply"
+  }
+]

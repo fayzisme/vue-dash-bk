@@ -1,0 +1,9 @@
+{
+  "name": "damcorp-dashboard:81",
+  "script": "./app.js",  
+  "watch": false,
+  "env": {
+      "PORT": 81,
+      "NODE_ENV": "development"
+  }
+}

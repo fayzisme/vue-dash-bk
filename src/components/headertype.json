@@ -1,0 +1,14 @@
+[
+  {
+    "value": "none",
+    "label": "None"
+  },
+  {
+    "value": "media",
+    "label": "Media"
+  },
+  {
+    "value": "text",
+    "label": "Text"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "value": "static",
+    "label": "Static"
+  },
+  {
+    "value": "dinamic",
+    "label": "Dinamic"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "value": "call",
+    "label": "Call Phone Number"
+  },
+  {
+    "value": "visit",
+    "label": "Visit Website"
+  }
+]

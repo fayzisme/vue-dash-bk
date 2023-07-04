@@ -1,0 +1,67 @@
+<template>
+	<div class="scrollable only-y">
+    <div class="page-header">
+			<h1>{{ $t("usermanagement.usermanagement") }}</h1>
+		</div>
+
+    <el-card>
+      <el-table :data="listRoles" style="width: 100%">        
+        <el-table-column fixed prop="name" label="Name" width="180"></el-table-column>
+        <el-table-column prop="view" label="Rules View" width="180" align="center">
+          <template slot-scope="scope">
+            <el-checkbox :model="scope.view"></el-checkbox>
+          </template>
+        </el-table-column>
+        <el-table-column prop="add" label="Rules Add" width="180"></el-table-column>
+        <el-table-column prop="edit" label="Rules Edit" width="180"></el-table-column>
+        <el-table-column prop="delete" label="Rules Delete" width="180"></el-table-column>
+        <el-table-column prop="download" label="Rules Download" width="180"></el-table-column>
+        <el-table-column prop="param_1" label="Rules Additional 1" width="180"></el-table-column>
+        <el-table-column prop="param_2" label="Rules Additional 2" width="180"></el-table-column>
+    </el-table>
+    </el-card>
+  </div>
+</template>
+
+
+<script>
+import api from '@/networkClient'
+import config from '@/config'
+
+export default {
+  data() {
+    return {
+      listRoles: new Array(),
+    }
+  },
+  methods:{
+    async getListRoles(){
+      api({
+        method: 'post',
+				url: config.baseApi + 'auth/list-permission',
+        timeout: 60 * 1000,
+        data: null
+      })
+      .then(res => {
+        this.listRoles = res.data.data
+        this.listRoles.push({ view: false, add: false, edit: false, delete: false, download: false, upload: false, param_1: false, param_2: false })
+      })
+      .catch(err => {
+
+      })
+    }
+  },
+  computed: {
+
+  },
+  mounted(){
+    this.getListRoles()    
+    console.log(this.listRoles)
+  },
+  components: {
+
+  }
+}
+</script>
+
+<style lang="scss" scoped>

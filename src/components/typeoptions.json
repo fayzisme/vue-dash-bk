@@ -1,0 +1,18 @@
+[
+  {
+    "value": "HEADER",
+    "label": "HEADER"
+  },
+  {
+    "value": "BODY",
+    "label": "BODY"
+  },
+  {
+    "value": "FOOTER",
+    "label": "FOOTER"
+  },
+  {
+    "value": "BUTTONS",
+    "label": "BUTTONS"
+  }
+]

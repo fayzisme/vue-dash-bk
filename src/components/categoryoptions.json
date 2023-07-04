@@ -1,0 +1,42 @@
+[
+  {
+    "value": "ACCOUNT_UPDATE",
+    "label": "ACCOUNT_UPDATE"
+  },
+  {
+    "value": "PAYMENT_UPDATE",
+    "label": "PAYMENT_UPDATE"
+  },
+  {
+    "value": "PERSONAL_FINANCE_UPDATE",
+    "label": "PERSONAL_FINANCE_UPDATE"
+  },
+  {
+    "value": "SHIPPING_UPDATE",
+    "label": "SHIPPING_UPDATE"
+  },
+  {
+    "value": "RESERVATION_UPDATE",
+    "label": "RESERVATION_UPDATE"
+  },
+  {
+    "value": "ISSUE_RESOLUTION",
+    "label": "ISSUE_RESOLUTION"
+  },
+  {
+    "value": "APPOINTMENT_UPDATE",
+    "label": "APPOINTMENT_UPDATE"
+  },
+  {
+    "value": "TRANSPORTATION_UPDATE",
+    "label": "TRANSPORTATION_UPDATE"
+  },
+  {
+    "value": "TICKET_UPDATE",
+    "label": "TICKET_UPDATE"
+  },
+  {
+    "value": "ALERT_UPDATE",
+    "label": "ALERT_UPDATE"
+  }
+]
